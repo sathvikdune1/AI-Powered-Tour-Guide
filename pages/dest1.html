@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations Page</title>
+    <link rel="stylesheet" href="../css/dest1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="main111">
+        <div class="header">
+            <div class="logo"></div>
+            <div class="names">
+            <div class="h1"><a href="../index.html" class="anchor">Home</a></div>
+            <div class="h2"><a href="./aboutus.html" class="anchor">About</a></div>
+            <div class="h3"><a href="./dest1.html" class="anchor">Destination</a></div>
+            <div class="h4"><a href="./India.html" class="anchor">Details</a></div>
+            <div class="h5"><a href="./contact.html" class="anchor">Contact</a></div>
+        </div>
+            <div class="icons"><i class="fab fa-instagram"></i>&emsp;<i class="fab fa-facebook-f"></i>&emsp;<i class="fab fa-google-plus-g"></i>&emsp;<i class="fab fa-linkedin-in"></i>
+        </div>
+            <div class="sign">Sign In/ Login</div>
+            <div class="hide" onclick="Menu()">Menu&emsp;<i class="fas fa-bars"></i></div>
+           </div>
+    
+        <div class="p1">
+            <div class="image1">
+                <div class="m1">
+                    <h3>Destinations</h3>
+                    <p>Pixel perfect Design with Awesome Content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="search">
+            <p>Where you want to go?</p>
+            <input type="text" placeholder="Where to go">
+            <input type="date" placeholder="Date" style="display: flex;align-items:center;justify-content:center;">
+            <input type="number" placeholder="No.of Vistors">
+            <button class="btn1">Search</button>
+        </div>
+        <div class="div4">
+            <div class="imagediv2">
+                <div class="extradiv1">
+                    <div class="container">
+                        <div class="filter-result">Filter Result</div>
+                        <div class="form-group">
+                          <label for="country">Country</label>
+                          <select id="country" name="country">
+                            <option value="">Select Country</option>
+                            <option value="india">India</option>
+                            <option value="usa">USA</option>
+                            <option value="nepal">Nepal</option>
+                            <option value="brazil">Brazil</option>
+                            <option value="italy">Italy</option>
+                            <option value="maldives">Maldives</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="Reviews">Reviews</label>
+                          <select id="review" name="review">
+                            <option value="">Select</option>
+                            <option value="premium">Average</option>
+                            <option value="Luxury">Good</option>
+                            <option value="normal">best</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="price-range">Price range</label>
+                          <div id="price-range">
+                            <input type="range" min="75" max="2000" value="75" step="1" id="price-range-slider">
+                            <span id="price-range-value">$75 - $2000</span>
+                          </div>
+                        </div>
+                        <button class="reset-button">Reset</button>
+                      </div>
+                    </div>
+                <div class="images2">
+                    <div class="simg1">
+                        <div class="sbimg sbimg2">
+                            <button class="dollar">$1700</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">New York</div>
+                            <div class="countryname">United States of America</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-half-star"></i> (22 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i>10 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg3">
+                            <button class="dollar">$800</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">Venice</div>
+                            <div class="countryname">Italy</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>(28 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i> 7 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg4">
+                            <button class="dollar">$600</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">Rio de janeiro</div>
+                            <div class="countryname">Brazil</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>(10 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i> 6 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg5">
+                            <button class="dollar">$100</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">Dehardun</div>
+                            <div class="countryname">India</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (30 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i> 8 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg6">
+                            <button class="dollar">$300</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">Male</div>
+                            <div class="countryname">Maldives</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-halfstar"></i>(10 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i> 4 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg7">
+                            <button class="dollar">$700</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">Tajmahal</div>
+                            <div class="countryname">India</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-half-star"></i> (22 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i>4days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg8">
+                            <button class="dollar">$1500</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">Niagara falls</div>
+                            <div class="countryname">United States of America</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-half-star"></i> (22 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i>10 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg9">
+                            <button class="dollar">$800</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">Amazon forest</div>
+                            <div class="countryname">Brazil</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-half-star"></i> (22 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i>10 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg10">
+                            <button class="dollar">$1000</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">Vatican Mueseum</div>
+                            <div class="countryname">Italy</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-half-star"></i> (22 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i>7 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg11">
+                            <button class="dollar">$400</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">Kathmandu</div>
+                            <div class="countryname">Nepal</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-half-star"></i> (22 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i>5 days</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simg1">
+                        <div class="sbimg sbimg12">
+                            <button class="dollar">$1200</button>
+                        </div>
+                        <div class="srate">
+                            <div class="townname">North Male Atoll</div>
+                            <div class="countryname">Maldives</div>
+                            <div class="review">
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-half-star"></i> (22 Review)</div>
+                                <div class="days"><i class="fa-regular fa-clock"></i>7days</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <center><button class="moreplaces">More Places</button></center>
+        </div>
+        
+   <div class="footer">
+    <div class="sub-div">
+        <div class="ch1">
+            <div class="logo1"></div>
+            <p id="b">5th flora, 700/D kings road, green
+                lane New York-1782
+                +10 367 826 2567
+                contact@carpenter.com</p>
+            <p id="c"><i class="fa-brands fa-facebook-f"></i>&emsp;<i class="fa-brands fa-twitter"></i>&emsp;<i class="fa-brands fa-instagram"></i>&emsp;<i class="fa-brands fa-pinterest"></i>&emsp;<i class="fa-brands fa-youtube"></i></p>
+        </div>
+        <div class="ch2">
+            <h id="a">Company</h><br><br>
+            <p id="b">Pricing <br>
+                About <br>
+                Gallery <br>
+                Contact</p>
+        </div>
+        <div class="ch3">
+            <h id="a">Popular Destination</h><br><br>
+            <p id="b">Indonesia &emsp; America<br>India&emsp;&emsp;&emsp;Switzerland<br>Italy&emsp;&emsp;&emsp;Canada<br>Franch&emsp;&emsp;England</p>
+        </div>
+        <div class="ch4">
+            <h id="a">Instagram</h>
+            <div class="photos">
+            <div class="img1"></div>
+            <div class="img2"></div>
+            <div class="img3"></div>
+            <div class="img4"></div>
+            <div class="img5"></div>
+            <div class="img6"></div>
+        </div>
+        </div>  
+    </div>
+   </div>
+</body>
+</html>

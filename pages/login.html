@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="loginmainbody">
+        <div class="loginpanelmain">
+            <div class="loginpanelsec1">
+                <div class="loginlogo"></div>
+                <div class="logininfobox"></div>
+                <div class="loginlefttext"></div>
+            </div>
+            <div class="loginpanelsec2">
+                <div class="loginpageside">
+                    <div class="logininfotext">Login</div>
+                    <div class="loginboxes">
+                        <form class="loginform">
+                            <label class="cntlabel">Email</label>
+                            <input type="email"  class="lgnboxes emaillgnbox">
+                            <label  class="cntlabel">Password</label>
+                            <input type="password"  class="lgnboxes loginpassbox">
+                            <div class="extravars">
+                                <div class="extravarleftside">
+                                    <input type="checkbox" class="Remembermebox">
+                                    <label class="smalltextlgn">Remember me</label>
+                                </div>
+                                <div class="extravarrightside">
+                                    <label class="Forgotpassword smalltextlgn">Forgot Password?</label>
+                                </div>
+                            </div>
+                            <button class="LoginButton" onclick="loginpress(event)">Login</button>
+                        </form>
+                    </div>
+                    <div class="loginextraelements">
+                        <label class="createacc">Create a new account? <span onclick="showsignuppage()" class="singingo">SignUp</span></label>
+                    </div>
+                </div>
+                <div class="singuppageside">
+                    <div class="signinpagetext">SignUp</div>
+                    <div class="loginboxes">
+                        <form class="loginform">
+                            <label class="cntlabel">Email</label>
+                            <input type="email"  class="lgnboxes sigupboxemail singupboxes">
+                            <label class="cntlabel">Password</label>
+                            <input type="password"  class="lgnboxes passbox singupboxes">
+                            <label  class="cntlabel">Confirm Password</label>
+                            <input type="password"  class="lgnboxes passbox singupboxes">
+                            <button class="LoginButton" onclick="siguppress(event)">SignUp</button>
+                        </form>
+                    </div>
+                    <div class="signinextraelements">
+                        <label class="createaccdiv">Already An User? <label onclick="showloginpage()" class="singingo">Login</label></label>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="flyingflight"></div>
+    </div>
+    <script src="../js/loginpage.js"></script>
+</body>
+</html>

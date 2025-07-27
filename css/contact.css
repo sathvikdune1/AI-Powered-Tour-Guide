@@ -1,0 +1,456 @@
+*{
+    margin: 0px;
+}
+.logo {
+    width: 200px;
+    height: 180px;
+    background-image: url(../assets/logo7.png);
+    background-size: 100% 100%;
+    margin-top: 0%;
+  }
+  .anchor{
+    color: white;
+    text-decoration: none;
+  }
+  .anchor:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color:red;
+  }
+  .header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(40, 40, 84);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    z-index: 1;
+  }
+  .names {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: white;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+  }
+  .icons i {
+    margin-right: 10px;
+  }
+  .sign {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .hide {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 70%;
+    top: 40%;
+  }
+  .anchor{
+    color: white;
+    text-decoration: none;
+  }
+  .h1:hover{
+    cursor: pointer;
+    color:red;
+  }
+  .h2:hover{
+    cursor: pointer;
+    color:red;
+  }
+  .anchor:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color:red;
+  }
+  .h4:hover{
+    cursor: pointer;
+    color:red;
+  }
+  .h5:hover{
+    cursor: pointer;
+    color:red;
+  }
+  .hide:hover{
+    cursor:pointer;
+  }
+.contactheader{
+    width: 100%;
+    height: 100px;
+}
+.contactimage{
+    margin-bottom: 20px;
+}
+.contactpageimage{
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+.contactimage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/back5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imageinnertext{
+    position: absolute;
+    height: 30%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.imagemaintext{
+    font-family: nthnfont;
+    font-size: 60px;
+}
+.imagesubtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.contactgooglemap{
+    height: 400px;
+    width: 80%;
+    margin: 50px;
+}
+@font-face {
+    font-family: nthnfont;
+    src: url("../assets/NothingYouCouldDo.ttf");
+}
+.contacthalf2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.contactinfotakers{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.cits1{
+    display: flex;
+    height: 100%;
+    width: 550px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cits2{
+    position: relative;
+    margin-top: 20px;
+    height: 100%;
+    width: 550px;
+    background-color: white;
+}
+.formheads{
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.feedbackbox{
+    outline: none;
+    resize: none;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formsubheads{
+    margin-bottom: 5px;
+    color: rgb(100, 99, 99);
+}
+.inputbox{
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 100;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.senddetailsbuttn{
+    width: 100px;
+    height: 60px;
+    background-color: #39abcd;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.contactaddrsbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #39abcd;
+}
+.addrsboxrow1{
+    display: flex;
+    height: 50px;
+    width: 80%;
+    margin-top: 20px;
+}
+.abrtext{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: fit-content;
+}
+.abrlogo{
+    height: 50px;
+    width: 50px;
+}
+.lg1{
+    background-image: url("../assets/mailbox.png");
+    background-size: 100% 100%;
+}
+.lg2{
+    background-image: url("../assets/addressmap.png");
+    background-size: 100% 100%;
+}
+.lg3{
+    background-image: url("../assets/contact.png");
+    background-size: 100% 100%;
+}
+.abrtext{
+    position: relative;
+    left: 5px;
+    top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abrmaintxt{
+    font-size: 16px;
+    color: white;
+}
+.abrsubtxt{
+    font-size: 14px;
+    color: rgb(227, 227, 227);
+}
+.footer{
+    position: relative;
+    width: 100%;
+    background-color: #040E27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+   
+    
+  }
+  .ch1{
+    width: 380px;
+    /* height: 302px; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    /* margin-top: 5%; */
+  }
+  .logo1{
+    margin-top:10%;
+    width: 200px;
+    height: 100px;
+    background-image: url(../assets/logo7.png);
+    background-size: 100% 100%;
+    background-color: #040E27;
+  }
+  .ch2{
+    width: 280px;
+    /* height: 302px; */
+    margin-top: 5%;
+  }
+  .ch3{
+    width: 320px;
+    /* height: 302px; */
+    margin-top: 5%;
+  }
+  #a{
+    font-size: 25px;
+    color: white;
+  }
+  #b{
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(135, 132, 132);
+  }
+  #c{
+    width: 100%;
+    font-size: 20px;
+    color: rgb(135, 132, 132); 
+    margin-left: 15%;
+  }
+  .ch4{
+    width: 320px;
+    /* height: 302px; */
+    margin-top: 5%;
+  }
+  .photos{
+    width: 100%;
+    /* height: 150px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10%;
+    
+  }
+  .images1h{
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/country1.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+  }
+  .images2h{
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/Country5.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+  }
+  .images3h{
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/America.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+  }
+  .images4h{
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/brazil.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+  }
+  .images5h{
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/Italy.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+  }
+  .images6h{
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/Maldives1.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+  }
+.footer:hover > div {
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .cits2{
+        height: fit-content;
+    }
+    .contactaddrsbox{
+        padding-bottom: 20px;
+        margin-bottom: 100px;
+    }
+  }
+
+
+  @media screen and (max-width:768px) {
+    .m3 h3, .m1 h3, .m2 h3{
+        font-size: 100px;
+    }
+    .search{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .div3{
+        height: fit-content;
+        margin-top:80%;
+    }
+    .header {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .logo {
+      position: absolute;
+      left: 10%;
+      top: -40px;
+      width: 150px;
+      height: 150px;
+  }
+  .names {
+      display: none;
+      height: 250px;
+      width: 200px;
+      text-align: center;
+      font-size: 16px;
+      flex-direction: column;
+      background-color: rgb(40, 40, 84);
+      position: absolute;
+      top: 100px;
+      right: 0px;
+      line-height: 30px;
+  }
+  .names.active {
+      display: flex;
+  }
+  .icons {
+      display: none;
+      position: absolute;
+      right: 20px;
+      bottom: 10px;
+      width: 100%;
+      justify-content: center;
+  }
+  .icons.active {
+      display: flex;
+  }
+  .sign {
+      display: none;
+      justify-content: center;
+  }
+  .sign.active {
+      display: flex;
+  }
+  .hide {
+      display: block;
+      position: absolute;
+      left: 70%;
+      top: 40%;
+      font-size: 20px;
+      color: white;
+  }
+  
+}

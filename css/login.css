@@ -1,0 +1,429 @@
+* {
+  margin: 0px;
+}
+
+.loginmainbody {
+  position: relative;
+  height: 100svh;
+  width: 100%;
+  background: rgb(3, 129, 179);
+  background: radial-gradient(circle, rgba(3, 129, 179, 1) 10%, rgba(16, 167, 220, 1) 37%, rgba(0, 134, 185, 1) 63%, rgba(1, 112, 155, 1) 94%);
+}
+
+.loginpanelmain {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 100%;
+  max-width: 700px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 5px 0px gray;
+  z-index: 5;
+}
+
+.loginpanelsec1 {
+  width: 300px;
+  height: 100%;
+  background-image: url("../assets/loginimageflight.jpg");
+  background-size: 100% 100%;
+}
+
+.loginpanelsec2 {
+  display: flex;
+  width: 400px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginpageside {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  font-family: mont;
+  flex-direction: column;
+}
+
+.logininfotext {
+  position: relative;
+  left: 50%;
+  transform: translateX(-15%);
+  font-size: 34px;
+  padding: 20px 0px;
+  color: #55c3dc;
+}
+
+.loginboxes {
+  height: fit-content;
+  width: 100%;
+}
+
+.loginform {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.extravars {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.loginextraelements {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+}
+
+@font-face {
+  font-family: mont;
+  src: url("../assets/Montserrat-Regular.ttf");
+}
+
+.cntlabel {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #55c3dc;
+}
+
+.lgnboxes {
+  outline: none;
+  height: 30px;
+  width: 100%;
+  border: none;
+  border-bottom: .5px solid grey;
+}
+
+.smalltextlgn {
+  font-size: 13px;
+}
+
+.Remembermebox {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.LoginButton {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 40px;
+  background-color: #55c3dc;
+  width: 80%;
+  color: white;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 0px gray;
+}
+
+.createacc {
+  position: relative;
+  top: 10px;
+  font-size: 14px;
+}
+
+.singuppageside {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  font-family: mont;
+  flex-direction: column;
+  display: none;
+}
+
+.singingo {
+  cursor: pointer;
+  color: #55c3dc;
+}
+
+.signinpagetext {
+  position: relative;
+  left: 15%;
+  font-size: 22px;
+  color: #55c3dc;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.createaccdiv {
+  position: relative;
+  top: 10px;
+  left: 26%;
+  font-size: 14px;
+}
+
+.flyingflight {
+  position: absolute;
+  height: 60px;
+  width: 80px;
+  background-image: url("../assets/flightpng.png");
+  background-size: 100% 100%;
+  animation-name: flying;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  top: 30%;
+  left: 20%;
+
+}
+
+@keyframes flying {
+  0% {
+    top: 30%;
+    left: 20%;
+    z-index: 6;
+  }
+
+  24% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(30deg);
+    top: 10%;
+    left: 60%;
+    z-index: 6;
+  }
+
+  30% {
+    z-index: 2;
+  }
+
+  40% {
+    z-index: 2;
+  }
+
+  45% {
+    z-index: 2;
+  }
+
+  49% {
+    transform: rotateY(0deg);
+    transform: rotate(30deg);
+  }
+
+  50% {
+    transform: rotateY(180deg) rotate(30deg);
+    top: 50%;
+    left: 75%;
+    z-index: 6;
+  }
+
+  79% {
+    transform: rotateY(180deg) rotate(30deg);
+  }
+
+  80% {
+    top: 80%;
+    left: 60%;
+    z-index: 6;
+    transform: rotate(15deg) rotateY(180deg);
+  }
+
+  85% {
+    z-index: 2;
+  }
+
+  90% {
+    top: 70%;
+    left: 30%;
+  }
+
+  100% {
+    top: 30%;
+    left: 20%;
+    z-index: 2;
+    transform: rotateY(180deg);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .loginpanelmain {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 5px 0px gray;
+    z-index: 5;
+    flex-wrap: wrap;
+  }
+
+  .loginpanelsec1 {
+    width: 300px;
+    height: 100%;
+    background-image: url("../assets/loginimageflight.jpg");
+    background-size: 100% 100%;
+    display: none;
+  }
+
+  .loginpanelsec2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .loginpageside {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    font-family: mont;
+    flex-direction: column;
+  }
+
+  .logininfotext {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 80px;
+    padding: 20px 0px;
+    color: #55c3dc;
+    width: fit-content;
+  }
+
+  .loginboxes {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .loginform {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .extravars {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  .loginextraelements {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+  }
+
+  @font-face {
+    font-family: mont;
+    src: url("../fonts/Montserrat-Regular.ttf");
+  }
+
+  .cntlabel {
+    font-size: 30px;
+    margin-top: 40px;
+    color: #55c3dc;
+  }
+
+  .lgnboxes {
+    outline: none;
+    height: 80px;
+    width: 100%;
+    border: none;
+    font-size: 30px;
+    border-bottom: .5px solid grey;
+  }
+
+  .smalltextlgn {
+    font-size: 100%;
+    font-size: 25px;
+    
+  }
+
+  .Remembermebox {
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
+
+  .LoginButton {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    background-color: #55c3dc;
+    width: 80%;
+    color: white;
+    height: 80px;
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 0px gray;
+  }
+
+  .createacc {
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+  }
+
+  .singuppageside {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    font-family: mont;
+    flex-direction: column;
+    display: none;
+  }
+
+  .singingo {
+    cursor: pointer;
+    color: #55c3dc;
+  }
+
+  .signinpagetext {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 80px;
+    width: fit-content;
+    color: #55c3dc;
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  .createaccdiv {
+    position: relative;
+    top: 10px;
+    left: 26%;
+    font-size: 25px;
+  }
+
+  .flyingflight {
+    position: absolute;
+    height: 60px;
+    width: 80px;
+    background-image: url("../assets/flightpng.png");
+    background-size: 100% 100%;
+    animation-name: flying;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    top: 30%;
+    left: 20%;
+    display: none;
+  }
+}
